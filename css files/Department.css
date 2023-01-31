@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-img-div{
+    width: 150px;
+    margin: 20px;
+  }
+  
+  .dis-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+  }
+  
+  nav{
+    text-decoration: none;
+  }
+  
+  nav li{
+    margin: 50px 10px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 50px;
+  }
+  
+  .bor-right{
+    padding-right: 30px;
+    border-right: 2px solid black;
+   }
+  
+   .search-logo{  
+    height: 15px;
+    margin-right: 70px;
+    position: relative;
+    
+  }
+  .margin-left-1{
+    margin-left: 50px;
+  
+  }
+  
+  .menu{
+    display: flex;
+    margin-left: 270px;
+    font-weight: bold;
+  }
+
+  /* ------------------------------- */
+  .row{
+    margin: 0;
+  }
+  .col-3 {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(231, 231, 231) ;
+  }
+  .container-department{
+    margin-top: 30px; 
+    border-bottom: 1px solid black;
+  }
+  .container-department p {
+    margin-left: 15px;
+  }
+  .container-menu{
+    margin: 0;
+    padding: 0;
+  }
+  .quick-links{
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .list-quick-links{
+    border-bottom: 1px solid black;
+  }
+  .list-quick-links p{
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+  }
+  .list-quick-links.brdr-none{
+    border-bottom: none;
+  }
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list-group-flush .list-group-item {
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+.list-group.list-group-flush{
+    margin-bottom: 20px;
+    border-bottom: 1px solid black ;
+}
+.list-group-item:first-child {
+border-top: none;
+}
+.col-9{
+    margin: 0;
+    padding: 0;
+    height: 310px;
+    
+}
+.healthcareimg{
+    width: 100%;
+    height: 310px;
+    background-image: url(../res/hcimg.jpg);
+}
+.text-block {
+    
+    position: absolute;
+    top: 55px;
+    left: 70px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+ 
+  .col-4{
+   
+    background-color: rgb(25, 102, 76);
+  }
+
+  /* ---------------------------------------------- */
+
+  .container-card {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    padding: 10px;
+    place-items: center;
+  }
+  .card {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    border: solid 3px #dddddd;
+    justify-items: center;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 5px;
+  }
+  .card > p {
+    margin: 12px auto;
+    font-family: 'poppins', sans-serif;
+  }
+  .card > img {
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 60%;
+    height: 60%;
+  }
+
+  .resources{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .row3.card{
+  }
